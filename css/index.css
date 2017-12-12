@@ -67,6 +67,7 @@
     color: #FFF;
     border-bottom: 10px solid #851944;
     padding-left: 2%;
+    position: relative;
 }
 .blog li a {
     color: #FCF;
@@ -95,4 +96,15 @@ h2{
 
 .subtitulo-principal{
   font-size: 50%;
+}
+
+.inicio-post{
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  top: 5em;
+  left: 18em;
+  height: 6em;
+  padding: 1em;
+  width: 48em;
 }
