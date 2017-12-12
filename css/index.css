@@ -1,3 +1,6 @@
+header {
+    position: relative;
+}
 .foto-home {
     height: 200px;
 }
@@ -102,10 +105,10 @@ h2{
   background-color: #fff;
   color: #000;
   position: absolute;
-  top: 5em;
+  top: 3em;
   left: 18em;
-  height: 6em;
-  padding: 1em;
+  height: 5em;
+  padding: 2em;
   width: 48em;
 }
 
@@ -170,4 +173,8 @@ h2{
     position: absolute;
     top: 30%;
     left: 65%;
+}
+.essencial-design{
+      background-color: #fff;
+      margin-right: 5%;
 }
