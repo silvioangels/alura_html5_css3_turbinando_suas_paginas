@@ -199,3 +199,15 @@ main {
 .blog .mais-recente a {
     color: #F26;
 }
+#banner-twitter{
+  background-color: #800080;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: .2em solid #000000;
+  padding: 1em 5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotate(38deg) translateX(85px) translateY(-32px);
+}
