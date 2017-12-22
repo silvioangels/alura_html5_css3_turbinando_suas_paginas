@@ -6,3 +6,9 @@ e depois aplicarmos no site do Joao da Silva, seria muito melhor explicado do
 que está sendo feito. Um exemplo disso são as aulas do basico, aonde explicou
 os conceitos em paginas separadas, e depois pediu para aplicar cada ponto no
 site.
+
+2) No Tópico 10 da Aula 4, paralaxe nas palavras não está explicando exatamente
+o que deve ser feito, fiquei na duvida do que deve ser feito com o que foi
+apresentado até agora, como disse anteriormente, o ideal é fazer um exemplo
+de cada tag/atributo no css e depois falar para fazer a msm coisa no projeto do
+joao da silva.
