@@ -1,0 +1,16 @@
+body{
+  background-color: blue;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  margin-top: 20%;
+  margin-left: 20%;
+  background-color: white;
+  box-shadow: 0 0 0 4px black,
+            0 0 0 8px blue,
+            0 0 0 12px black,
+            0 0 0 16px blue,
+            0 0 0 20px black;
+}
