@@ -12,3 +12,8 @@ o que deve ser feito, fiquei na duvida do que deve ser feito com o que foi
 apresentado até agora, como disse anteriormente, o ideal é fazer um exemplo
 de cada tag/atributo no css e depois falar para fazer a msm coisa no projeto do
 joao da silva.
+
+3) Apos fazer todas as alterações solicitadas no capitulo inteiro da aula 4
+com o projeto que foi pegado no topico "2 - Palavras rotacionadas na página
+inicial" e  seguindo os passos do ultimo topico "10 - Paralaxe nas palavras",
+não fica igual ao projeto baixado no topico "11 - Arquivos do projeto atual".
