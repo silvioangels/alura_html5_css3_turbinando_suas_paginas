@@ -1,0 +1,8 @@
+body {
+  min-height: 100%;
+  background-color: black;
+  background-image: linear-gradient(to right, black, #C00, black);
+  background-repeat: no-repeat;
+  background-size: 80% 5px;
+  background-position: 50% 2500%%;
+}
