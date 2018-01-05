@@ -46,3 +46,26 @@ label[for="outro"] {
 input[name="outro-assunto"] {
     width: auto;
 }
+
+label[for="nome"]{
+  position: relative;
+}
+label[for="nome"]::after {
+      content: "";
+      background-image: url(../imagens/usuario.png);
+      background-color: #666;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-size: 50% 50%;
+      width: 2em;
+      height: 2em;
+      background-position: center;
+}
+
+#nome{
+  width: calc(100% - 2em);
+  position: relative;
+  left: 2em;
+}
