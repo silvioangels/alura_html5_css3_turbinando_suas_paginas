@@ -255,6 +255,7 @@ body {
     font-family: "Open Sans Condensed", sans-serif;
     animation: aparece 0.5s;
     animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 .blog .inicio-post {
     position: absolute;
