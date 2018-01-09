@@ -41,6 +41,10 @@
     }
 }
 
+.saudacao:hover em {
+    animation-play-state: paused;
+}
+
 .botao-index {
     font-size: 1.25em;
     background-color: #851944;
