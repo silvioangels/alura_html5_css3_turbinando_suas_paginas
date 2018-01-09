@@ -52,16 +52,24 @@
 .citacao-bio > p {
     position: relative;
 }
+
 table{
   border-collapse: separate;
-  border-spacing: 1px;
+  border-spacing: 0.25em 1em;
 }
 
-th{
-  background-color: red;
-  border: 5px solid black;
+thead th{
+  background-color: #3C1D3D;
+  color: white;
+  font-style: bold;
 }
+
+tbody th{
+  background-color: #851944;
+  color: white;
+  font-style: bold;
+}
+
 td{
-  background-color: blue;
-  border: 5px solid black;
+  background-color: #EEE;
 }
