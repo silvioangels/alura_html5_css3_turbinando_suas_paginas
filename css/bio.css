@@ -53,23 +53,32 @@
     position: relative;
 }
 
-table{
-  border-collapse: separate;
-  border-spacing: 0.25em 1em;
+.habilidades{
+    font-weight: bold;
+    background-color: #851944;
+    color: white;
 }
 
-thead th{
-  background-color: #3C1D3D;
-  color: white;
-  font-style: bold;
+.habilidades thead th {
+  /* não precisamos colocar font-weight e color
+     pois já fizemos isso para todos os th */
+    background-color: #3C1D3D;
 }
 
-tbody th{
-  background-color: #851944;
-  color: white;
-  font-style: bold;
+.habilidades td {
+    background-color: #eee;
 }
 
-td{
-  background-color: #EEE;
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+}
+
+.habilidades {
+    margin: 1em 0;
 }
