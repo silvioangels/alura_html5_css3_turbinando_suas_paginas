@@ -73,6 +73,8 @@
 .habilidades td {
     background-color: #eee;
     color: black;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .habilidades th,
