@@ -55,8 +55,13 @@
 
 .habilidades{
     font-weight: bold;
-    background-color: #851944;
     color: white;
+}
+
+.habilidades tbody th {
+  /* não precisamos colocar font-weight e color
+     pois já fizemos isso para todos os th */
+    background-color: #851944;
 }
 
 .habilidades thead th {
