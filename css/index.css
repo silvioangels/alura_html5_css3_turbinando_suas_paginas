@@ -1,3 +1,8 @@
+body {
+    /* sobrescreve o site.css */
+    display: block;
+}
+
 .foto-home {
     height: 200px;
     border-radius: 50%;
