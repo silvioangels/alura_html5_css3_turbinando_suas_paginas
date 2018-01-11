@@ -53,8 +53,6 @@ main p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 1em;
-    /* removemos position e top, além do float, já removido acima */
-   padding-top: calc(300px + 1em);
 }
 
 .navegacao-site a {
@@ -138,22 +136,21 @@ main {
 
 .minha-foto,
 .navegacao-site {
-    /* removemos a borda aqui */
+    border-left: .5em solid black;
     box-sizing: border-box;
 }
 
 .navegacao-site {
     width: calc(0.9 * 300px);
-    position: relative;
-    top: 300px;
+    padding-top: calc(300px + 1em);
 }
 
 .minha-foto {
+    border-bottom: .5em solid black;
     position: absolute;
     top: 0;
     right: 0;
     height: 300px;
-    border-bottom: .5em solid black;
 }
 
 .icones-redes-sociais a {

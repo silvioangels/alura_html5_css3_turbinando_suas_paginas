@@ -1,8 +1,6 @@
 body {
-    /* sobrescreve o site.css */
     display: block;
 }
-
 .foto-home {
     height: 200px;
     border-radius: 50%;
@@ -31,25 +29,16 @@ body {
     -webkit-transform: rotate(-5deg) skew(-10deg);
             transform: rotate(-5deg) skew(-10deg);
     display: inline-block;
-    animation: flutua 1s infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+    -webkit-animation: flutua 1s ease-in-out infinite;
+            animation: flutua 1s ease-in-out infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
     position: relative;
 }
-
-@keyframes flutua {
-    from {
-        top: -5px;
-    }
-    to {
-        top: 5px;
-    }
-}
-
 .saudacao:hover em {
-    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
 }
-
 .botao-index {
     font-size: 1.25em;
     background-color: #851944;
@@ -62,6 +51,12 @@ body {
     text-align: center;
     text-decoration: none;
     transition: .5s;
+}
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
 }
 .secao-inicio {
     padding: 2em;
@@ -84,14 +79,23 @@ body {
     color: #FFF;
 }
 .trabalhos ul {
-    /* podemos tirar o overflow também! */
-    /* removemos a borda e o overflow daqui */
-    display: flex;
+    display: -webkit-flex;
+    display:         flex;
 }
 .trabalhos li {
-    /* não precisamos mais de float nem width! */
+    -webkit-flex: auto;
+            flex: auto;
     border: .5em solid #000;
-    flex: 1;
+}
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+.trabalhos li:nth-child(3) {
+    order: 3;
 }
 .trabalhos img {
     width: 100%;
@@ -152,16 +156,6 @@ body {
     right: 0;
     top: 0;
     left: 0;
-    animation: aparece 2s;
-}
-
-@keyframes aparece {
-  /* podemos usar a palavra-chave "from" também no lugar de 0% */
-  0%{
-    opacity: 0;
-    transform: scale(0.001);
-  }
-
 }
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
@@ -169,6 +163,8 @@ body {
     font-size: 400%;
     color: rgba(255, 127, 127, .5);
     position: absolute;
+    -webkit-animation: aparece 2s;
+            animation: aparece 2s;
 }
 .eficiencia {
     top: 50%;
@@ -257,17 +253,12 @@ body {
 
     line-height: 1;
 
-    /* largura = 14em */
-    /* altura = 3.5em */
-    /* tx = .707 * h - .707 * w + w */
-    /* ty = -.707 * h */
-    -webkit-transform: translate(calc(0.707 * (3.5em - 100%) + 100%), calc(-0.707 * 3.5em)) rotate(45deg);
-            transform: translate(calc(0.707 * (3.5em - 100%) + 100%), calc(-0.707 * 3.5em)) rotate(45deg);
+    -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+            transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
 
-    width: 14em;
-    padding: 1em 0;
+    padding: 1em 3em;
     box-sizing: border-box;
 
     text-align: center;
@@ -278,9 +269,12 @@ body {
 
     font-size: 1.2em;
     font-family: "Open Sans Condensed", sans-serif;
-    animation: aparece 0.5s;
-    animation-delay: 2s;
-    animation-fill-mode: backwards;
+    -webkit-animation: aparece .5s;
+            animation: aparece .5s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
 }
 .blog .inicio-post {
     position: absolute;
@@ -302,24 +296,31 @@ body {
     background-color: #F2FFFC;
     color: #F26;
 }
-
-.botao-index:focus,
-.botao-index:hover {
-    background-color: #C54974;
-    color: white;
-    box-shadow: 0 0 1em #FA9;
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
-
-
-.trabalhos li:first-child {
-    order: 2;
-    transform: scale(1.2);
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
-
-.trabalhos li:nth-child(2) {
-    order: 1;
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
 }
-
-.trabalhos li:last-child {
-    order: 3;
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
 }
