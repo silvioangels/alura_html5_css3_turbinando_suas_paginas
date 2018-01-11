@@ -79,12 +79,13 @@
     color: #FFF;
 }
 .trabalhos ul {
-    overflow: hidden;
+    /* podemos tirar o overflow também! */
     border: .5em solid black;
+    display: flex;
 }
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+    /* não precisamos mais de float nem width! */
+    flex: 1;
 }
 .trabalhos img {
     width: 100%;
