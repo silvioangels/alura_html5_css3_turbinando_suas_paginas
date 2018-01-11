@@ -17,3 +17,13 @@ joao da silva.
 com o projeto que foi pegado no topico "2 - Palavras rotacionadas na página
 inicial" e  seguindo os passos do ultimo topico "10 - Paralaxe nas palavras",
 não fica igual ao projeto baixado no topico "11 - Arquivos do projeto atual".
+
+4) De um ponto em diante tive dificuldades em saber o que era para ser feito
+devido a complexidade do pedido, mas olhando a resposta consegui verificar o
+solicitado. Acho que se tivesse mais descrições como remover tag x, coloque o
+y seria mais util do que pedir para fazer sem falar nada.
+
+5) Nas aulas de flexbox vi que teve a explicação via video e depois nas proximas
+lições pediram para ir fazendo, deixando a pessoa sem saber o que fazer, seria
+mais interessante colocar as tags e propriedades que devem ser colocadas para
+facilitar. 
