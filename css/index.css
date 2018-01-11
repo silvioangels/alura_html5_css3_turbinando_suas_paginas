@@ -85,11 +85,12 @@ body {
 }
 .trabalhos ul {
     /* podemos tirar o overflow também! */
-    border: .5em solid black;
+    /* removemos a borda e o overflow daqui */
     display: flex;
 }
 .trabalhos li {
     /* não precisamos mais de float nem width! */
+    border: .5em solid #000;
     flex: 1;
 }
 .trabalhos img {
@@ -307,4 +308,18 @@ body {
     background-color: #C54974;
     color: white;
     box-shadow: 0 0 1em #FA9;
+}
+
+
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
 }
